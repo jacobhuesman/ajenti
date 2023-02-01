@@ -53,7 +53,7 @@ ssl:
 class install(_install):
     def run(self):
         _install.run(self)
-        self.execute(_post_install, [self.install_scripts], msg='Running post install script')
+        #self.execute(_post_install, [self.install_scripts], msg='Running post install script')
 
 
 setup(
